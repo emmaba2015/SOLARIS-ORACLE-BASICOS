@@ -1,0 +1,11 @@
+Remplaza el existente archivo crontab con un archivo definido por el usuario
+crontab archivo
+
+Editar el archivo crontab del usuario, cada linea nueva sera una nueva tarea de crontab.
+crontab -e
+
+Lista todas las tareas de crontab del usuario
+crontab -l
+
+Borra el crontab del usuario
+crontab -d
