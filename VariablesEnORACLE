@@ -1,0 +1,21 @@
+  Ver Variables Entorno SO
+  Nos muestra que variables oracle tenemos seteados para el user del SO. Siempre debemos usar el user creador de la base, 
+  generalmente se llama oracle.
+
+env|grep ORA
+
+  Seteado de Variables Básicas ORACLE
+  LINUX/SOLARIS
+export ORACLE_SID=prod
+export ORACLE_BASE=/o0/app/oracle
+export ORACLE_HOME=/o0/app/oracle/product/11.2.0/dbhome_1
+export PATH=$ORACLE_HOME/bin:$PATH
+
+  Windows
+set ORACLE_SID=prod  
+set ORACLE_BASE=c:\Oracle
+set ORACLE_HOME=c:\Oracle\ora10g
+  
+
+
+  
