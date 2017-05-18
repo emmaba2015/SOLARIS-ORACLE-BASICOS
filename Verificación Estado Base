@@ -1,6 +1,11 @@
 - Chequeo del estado de la base de datos:
 
 ps -ef|grep pmon (chequemos si el process monitor esta arriba y a la vez chequeamos el usuario "dueño" de la base)
+ps -ef|grep ora (Verificamos que procesos de las bases estan arriba)
+- Matar una sesion
+
+ps -ef | grep ora
+kill -9 spid
 
 Con tnsping podes pingear bases Oracle y ver en que server esta
 
